@@ -15,6 +15,19 @@
 		FB0A993F21C0216C00491D15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB0A993D21C0216C00491D15 /* LaunchScreen.storyboard */; };
 		FB0A994A21C0216D00491D15 /* VIPER_CoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0A994921C0216D00491D15 /* VIPER_CoordinatorTests.swift */; };
 		FB0A995521C0216D00491D15 /* VIPER_CoordinatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0A995421C0216D00491D15 /* VIPER_CoordinatorUITests.swift */; };
+		FB0A996321C0221800491D15 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0A996221C0221800491D15 /* Coordinator.swift */; };
+		FB0A996621C0222F00491D15 /* VIPER-Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0A996521C0222F00491D15 /* VIPER-Protocols.swift */; };
+		FB0A997521C0224400491D15 /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0A996821C0224400491D15 /* LibraryViewController.swift */; };
+		FB0A997621C0224400491D15 /* LibraryInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0A996921C0224400491D15 /* LibraryInteractor.swift */; };
+		FB0A997721C0224400491D15 /* LibraryPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0A996A21C0224400491D15 /* LibraryPresenter.swift */; };
+		FB0A997821C0224400491D15 /* TextEditorPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0A996C21C0224400491D15 /* TextEditorPresenter.swift */; };
+		FB0A997921C0224400491D15 /* TextEditorInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0A996D21C0224400491D15 /* TextEditorInteractor.swift */; };
+		FB0A997A21C0224400491D15 /* TextEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0A996E21C0224400491D15 /* TextEditorViewController.swift */; };
+		FB0A997B21C0224400491D15 /* SpeechInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0A997021C0224400491D15 /* SpeechInteractor.swift */; };
+		FB0A997C21C0224400491D15 /* Speech.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB0A997121C0224400491D15 /* Speech.storyboard */; };
+		FB0A997D21C0224400491D15 /* SpeechViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0A997321C0224400491D15 /* SpeechViewController.swift */; };
+		FB0A997E21C0224400491D15 /* SpeechPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0A997421C0224400491D15 /* SpeechPresenter.swift */; };
+		FB0A998021C0224A00491D15 /* SpeechRecognitionCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0A997F21C0224A00491D15 /* SpeechRecognitionCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +62,19 @@
 		FB0A995021C0216D00491D15 /* VIPER-CoordinatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VIPER-CoordinatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB0A995421C0216D00491D15 /* VIPER_CoordinatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPER_CoordinatorUITests.swift; sourceTree = "<group>"; };
 		FB0A995621C0216D00491D15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB0A996221C0221800491D15 /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		FB0A996521C0222F00491D15 /* VIPER-Protocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "VIPER-Protocols.swift"; sourceTree = "<group>"; };
+		FB0A996821C0224400491D15 /* LibraryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
+		FB0A996921C0224400491D15 /* LibraryInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryInteractor.swift; sourceTree = "<group>"; };
+		FB0A996A21C0224400491D15 /* LibraryPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryPresenter.swift; sourceTree = "<group>"; };
+		FB0A996C21C0224400491D15 /* TextEditorPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextEditorPresenter.swift; sourceTree = "<group>"; };
+		FB0A996D21C0224400491D15 /* TextEditorInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextEditorInteractor.swift; sourceTree = "<group>"; };
+		FB0A996E21C0224400491D15 /* TextEditorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextEditorViewController.swift; sourceTree = "<group>"; };
+		FB0A997021C0224400491D15 /* SpeechInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechInteractor.swift; sourceTree = "<group>"; };
+		FB0A997221C0224400491D15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Speech.storyboard; sourceTree = "<group>"; };
+		FB0A997321C0224400491D15 /* SpeechViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechViewController.swift; sourceTree = "<group>"; };
+		FB0A997421C0224400491D15 /* SpeechPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechPresenter.swift; sourceTree = "<group>"; };
+		FB0A997F21C0224A00491D15 /* SpeechRecognitionCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechRecognitionCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +125,12 @@
 		FB0A993021C0216B00491D15 /* VIPER-Coordinator */ = {
 			isa = PBXGroup;
 			children = (
+				FB0A996221C0221800491D15 /* Coordinator.swift */,
+				FB0A997F21C0224A00491D15 /* SpeechRecognitionCoordinator.swift */,
+				FB0A996421C0222F00491D15 /* VIPER-Protocols */,
+				FB0A996721C0224400491D15 /* Library */,
+				FB0A996F21C0224400491D15 /* Speech */,
+				FB0A996B21C0224400491D15 /* TextEditor */,
 				FB0A993121C0216B00491D15 /* AppDelegate.swift */,
 				FB0A993321C0216B00491D15 /* ViewController.swift */,
 				FB0A993521C0216B00491D15 /* Main.storyboard */,
@@ -126,6 +158,45 @@
 				FB0A995621C0216D00491D15 /* Info.plist */,
 			);
 			path = "VIPER-CoordinatorUITests";
+			sourceTree = "<group>";
+		};
+		FB0A996421C0222F00491D15 /* VIPER-Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				FB0A996521C0222F00491D15 /* VIPER-Protocols.swift */,
+			);
+			path = "VIPER-Protocols";
+			sourceTree = "<group>";
+		};
+		FB0A996721C0224400491D15 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				FB0A996821C0224400491D15 /* LibraryViewController.swift */,
+				FB0A996921C0224400491D15 /* LibraryInteractor.swift */,
+				FB0A996A21C0224400491D15 /* LibraryPresenter.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		FB0A996B21C0224400491D15 /* TextEditor */ = {
+			isa = PBXGroup;
+			children = (
+				FB0A996C21C0224400491D15 /* TextEditorPresenter.swift */,
+				FB0A996D21C0224400491D15 /* TextEditorInteractor.swift */,
+				FB0A996E21C0224400491D15 /* TextEditorViewController.swift */,
+			);
+			path = TextEditor;
+			sourceTree = "<group>";
+		};
+		FB0A996F21C0224400491D15 /* Speech */ = {
+			isa = PBXGroup;
+			children = (
+				FB0A997021C0224400491D15 /* SpeechInteractor.swift */,
+				FB0A997121C0224400491D15 /* Speech.storyboard */,
+				FB0A997321C0224400491D15 /* SpeechViewController.swift */,
+				FB0A997421C0224400491D15 /* SpeechPresenter.swift */,
+			);
+			path = Speech;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +302,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB0A997C21C0224400491D15 /* Speech.storyboard in Resources */,
 				FB0A993F21C0216C00491D15 /* LaunchScreen.storyboard in Resources */,
 				FB0A993C21C0216C00491D15 /* Assets.xcassets in Resources */,
 				FB0A993721C0216B00491D15 /* Main.storyboard in Resources */,
@@ -258,8 +330,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB0A997E21C0224400491D15 /* SpeechPresenter.swift in Sources */,
+				FB0A997D21C0224400491D15 /* SpeechViewController.swift in Sources */,
+				FB0A996321C0221800491D15 /* Coordinator.swift in Sources */,
 				FB0A993421C0216B00491D15 /* ViewController.swift in Sources */,
+				FB0A996621C0222F00491D15 /* VIPER-Protocols.swift in Sources */,
+				FB0A997621C0224400491D15 /* LibraryInteractor.swift in Sources */,
+				FB0A998021C0224A00491D15 /* SpeechRecognitionCoordinator.swift in Sources */,
+				FB0A997B21C0224400491D15 /* SpeechInteractor.swift in Sources */,
 				FB0A993A21C0216B00491D15 /* VIPER_Coordinator.xcdatamodeld in Sources */,
+				FB0A997521C0224400491D15 /* LibraryViewController.swift in Sources */,
+				FB0A997821C0224400491D15 /* TextEditorPresenter.swift in Sources */,
+				FB0A997721C0224400491D15 /* LibraryPresenter.swift in Sources */,
+				FB0A997A21C0224400491D15 /* TextEditorViewController.swift in Sources */,
+				FB0A997921C0224400491D15 /* TextEditorInteractor.swift in Sources */,
 				FB0A993221C0216B00491D15 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,6 +394,14 @@
 				FB0A993E21C0216C00491D15 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FB0A997121C0224400491D15 /* Speech.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB0A997221C0224400491D15 /* Base */,
+			);
+			name = Speech.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
